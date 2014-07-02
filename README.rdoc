@@ -6,3 +6,13 @@ This app is made in nitrous.io.
 
 There is no problems with rspec and gems unlike local machine, and not much problems with pushing to heroku (as far as i can see). Only problem is TDD cannot be run --> problems with whether is it a local server or not. 
 
+Errors: 
+
+1. when running rails s
+
+A server is already running. Check /home/action/workspace/app2/tmp/pids/server.pid.                                                  
+Exiting  
+
+2. localhost ports not working -> emailed nitrous; havent got back.
+
+3. TDD not working --> bundle exec rspec spec/requests/static_pages_spec.rb --> error message of whether server is running locally.
