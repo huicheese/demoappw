@@ -1,4 +1,5 @@
 App2::Application.routes.draw do
+  root 'pages#show'
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
